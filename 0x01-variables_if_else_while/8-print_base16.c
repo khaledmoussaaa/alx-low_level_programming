@@ -20,7 +20,7 @@ int main(void)
 
 			if (digit >= 57)
 			{
-				digit += 40;
+				digit += 39;
 			}
 		}
 		else if (digit >= 97 && digit <= 102)

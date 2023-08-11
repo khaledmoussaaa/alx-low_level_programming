@@ -3,14 +3,20 @@
 /**
  * main - entry point
  *
- *Description: print all single digit
+ * Description: print all single digit
  *
- *Return: 0 (success)
+ * Return: 0 (success)
 */
 
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
-		printf("%i", i);
+	int n = 0;
+
+	while (n < 10)
+	{
+		printf("%i", n);
+		n++;
+	}
+	printf("\n");
 	return (0);
 }

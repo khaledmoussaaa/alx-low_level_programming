@@ -1,10 +1,11 @@
 #include<stdio.h>
+
 /**
 * main - entry point
 *
-*Description: print alphabet by reverse from z to a
+* Description: print alphabet by reverse from z to a
 *
-*Return: 0 (success)
+* Return: 0 (success)
 */
 
 int main(void)
@@ -16,7 +17,6 @@ int main(void)
 		putchar(digitRev);
 		digitRev--;
 	}
-	putchar("\n");
-
+	putchar('\n');
 	return (0);
 }

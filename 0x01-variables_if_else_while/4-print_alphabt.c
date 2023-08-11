@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - entry point
-*
-*Description: print allalphapetic except q and e
-*
-*Return: 0 (success)
+ * main - entry point
+ *
+ * Description: print allalphapetic except q and e
+ *
+ * Return: 0 (success)
 */
 
 int main(void)
@@ -18,4 +18,5 @@ int main(void)
 			putchar(alpha);
 		alpha++;
 	}
+	return (0);
 }

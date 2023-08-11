@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
 * main - entry point
@@ -17,6 +17,6 @@ int main(void)
 		putchar (alph);
 		alph++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }

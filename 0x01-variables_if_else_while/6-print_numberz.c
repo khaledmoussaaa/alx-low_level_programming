@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
 * main - entry point
 *
-*Description: check lowercase
+* Description: check lowercase
 *
-*Return: 0 (success)
+* Return: 0 (success)
 */
 
 int main(void)
@@ -16,6 +17,6 @@ int main(void)
 		putchar(digit + 48);
 		digit++;
 	}
-
+	putchar('\n');
 	return (0);
 }
