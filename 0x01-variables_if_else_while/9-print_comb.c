@@ -19,9 +19,10 @@ int main(void)
 		if (digit <= 56)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 		digit++;
 	}
-	putchar(36);
+	putchar('\n');
 	return (0);
 }
