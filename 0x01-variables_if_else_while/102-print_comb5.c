@@ -12,17 +12,13 @@ int main(void)
 {
 	int i, j;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 99; i++)
 	{
-		for (j = i + 1; j <= 9; j++)
+		for (j = i; j <= 99; j++)
 		{
-			putchar('0' + i);
-			putchar('0' + j);
-			if (i != 8 || j != 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar('0' + i / 10);
+			putchar('0' + i % 10);
+			putchar(' ');
 		}
 	}
 	putchar('\n');
