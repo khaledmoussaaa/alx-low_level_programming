@@ -36,5 +36,6 @@ int main(void)
 			}
 		}
 	}
+	puthcar('\n');
 	return (0);
 }

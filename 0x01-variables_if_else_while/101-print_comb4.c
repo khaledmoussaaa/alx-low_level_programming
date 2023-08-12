@@ -18,17 +18,23 @@ int main(void)
 		{
 			for (k = j + 1; k <= 9; k++)
 			{
-				putchar('0' + i);
-				putchar('0' + j);
-				putchar('0' + k);
-				if (i != 7 || j != 8 || k != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(i / 100 + '0');
+				putchar((i % 100) / 10 + '0');
+				putchar((i % 100) % 10 + '0');
+				putchar(',');
+				putchar(' ');
+				putchar(j / 100 + '0');
+				putchar((j % 100) / 10 + '0');
+				putchar((j % 100) % 10 + '0');
+				putchar(',');
+				putchar(' ');
+				putchar(k / 100 + '0');
+				putchar((k % 100) / 10 + '0');
+				putchar((k % 100) % 10 + '0');
+				putchar('\n');
 			}
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
