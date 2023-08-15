@@ -1,16 +1,19 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: print _pucthcar in new line
+ * Descirption: prints _putchar follwed by new line
  *
- * Return: 0 (Success)
-*/
-
+ * Return: Always 0
+ */
 int main(void)
 {
-	printf("_putchar \n");
+	char lett[] = "_putchar";
+
+	for (int i = 0; i < 8; i++)
+		_putchar(lett[i]);
+	_putchar('\n');
 
 	return (0);
 }
