@@ -10,9 +10,10 @@
 int main(void)
 {
 	char lett[] = "_putchar";
+	int ch;
 
-	for (int i = 0; i < 8; i++)
-		_putchar(lett[i]);
+	for (ch = 0; i < 8; ch++)
+		_putchar(lett[ch]);
 	_putchar('\n');
 
 	return (0);
