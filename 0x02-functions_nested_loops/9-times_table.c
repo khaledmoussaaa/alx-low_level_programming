@@ -8,10 +8,10 @@ void times_table(void)
 {
 	int num, rows, aski;
 
-	for (num = 0, num <= 9; num++)
+	for (num = 0, num <= 9; num++;)
 	{
 		_putchar('0');
-		for (rows = 1; rows <= 9; rows++)
+		for (rows = 1; rows <= 9; rows++;)
 		{
 			_putchar(',');
 			_putchar(' ');
