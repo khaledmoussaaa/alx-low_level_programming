@@ -9,9 +9,10 @@
  */
 int main(void)
 {
-	int num, sum;
-	unsigned long =  f1 = 0;
+	int num;
+	unsigned long f1 = 0;
 	unsigned long f2 = 1;
+	unsigned long sum;
 
 	for (num = 0; num < 50; num++)
 	{
