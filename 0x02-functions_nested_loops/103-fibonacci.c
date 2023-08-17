@@ -25,6 +25,6 @@ int main(void)
 		f1 = f2;
 		f2 = sum;
         }
-	printf("ul\n", evenSum);
+	printf("%.0f\n", evenSum);
         return (0);
 }
