@@ -18,14 +18,15 @@ int main(void)
 		sum = f1 + f2;
 		f1 = f2;
 		f2 = sum;
-		prinf("%i", sum);
+		printf("%i", sum);
 		if (num == 49)
 		{
 			printf("\n");
 		}
 		else
 		{
-			print(", ");
+			printf(", ");
 		}
 	}
 	return (0);
+}
