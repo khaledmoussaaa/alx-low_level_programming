@@ -10,18 +10,28 @@
 
 void print_diagonal(int n)
 {
-	int dSign, line;
-
 	if (n <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
-		for (dSign = 1; dSign <= n; dSign++)
+		int i, j;
+
+		for (i = 0; i < n; i++)
 		{
-			for (line = 1; line <= dSign; line++)
-				_putchar(' ');
-			_putchar(92);
-			_putchar('\n');
+			for (j = 0; j < n; j++)
+			{
+				if (j == i)
+				{
+					_putchar(92);
+				}
+				else if (j < i)
+				{
+					_putchar(' ');
+				}
+				_putchar('\n');
+			}
 		}
 	}
 }
