@@ -5,7 +5,7 @@
  *
  *@s: input function
  *
- * Return: null
+ * Return: length
  */
 
 int _strlen(char *s)
@@ -13,4 +13,5 @@ int _strlen(char *s)
 	int length;
 
 	length = _strlen(s);
+	return (length);
 }
