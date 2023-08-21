@@ -12,11 +12,8 @@ void _puts(char *str)
 {
 	int rev;
 
-	rev = strlen(str);
-	while (rev--)
-	{
-		if (str != '\0')
-			putchar(str[rev] + 0);
+	while (*str != '\0')
+		putchar(str + 0);
 	}
 	putchar('\n');
 }
