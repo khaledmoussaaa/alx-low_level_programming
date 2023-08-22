@@ -5,17 +5,16 @@
  *
  *@str: input function
  *
- * Return: null
+ *Description: prints half of a string, followed by a new line.
  */
 
 void puts_half(char *str)
 {
 	int i;
 
-	while (str[i])
-	{
-		i++;
-	}
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	i++;
 	for (i = i / 2; str[i] != '\0'; i++)
 	{
 		putchar(str[i] + 0);
