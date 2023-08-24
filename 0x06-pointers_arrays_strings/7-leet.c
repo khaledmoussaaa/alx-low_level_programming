@@ -7,7 +7,7 @@
  *
  * Return: pointer
  */
-char *leet(char *ch);
+char *leet(char *ch)
 {
 	int i, j;
 	char decode[] = "aAeEoOtTlL";
