@@ -10,19 +10,19 @@
 
 char *rot13(char *a)
 {
-	char small[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPRQRSTUVWXYZ";
+	char small[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char capital[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	char *p = a;
 	int i, j;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (a[i] != '\0')
 	{
 		for (j = 0; j <= 52; j++)
 		{
-			if (s[i] == small[j])
+			if (a[i] == small[a])
 			{
-				s[i] = capital[j];
+				a[i] = capital[j];
 				break;
 			}
 		}
