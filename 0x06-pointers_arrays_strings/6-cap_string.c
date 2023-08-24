@@ -31,7 +31,7 @@ char *cap_string(char *s)
 	int found = 1;
 	char *p = s;
 
-	while (s[i] != '\n')
+	while (s[i] != '\0')
 	{
 		if (isDeli(s[i]))
 			found = 1;
