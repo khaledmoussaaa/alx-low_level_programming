@@ -7,6 +7,7 @@
  *
  * Return: nothing
  */
+
 void print_number(int n)
 {
 	unsigned int n1;
@@ -23,4 +24,3 @@ void print_number(int n)
 	}
 	putchar((n1 % 10) + 48);
 }
-
