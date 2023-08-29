@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_diagsums - sets the value of a pointer to a char.
+*set_string - sets the value of a pointer to a char.
 *@s: input fnction
 *@to: input fnction
 *
