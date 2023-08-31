@@ -6,7 +6,7 @@
  *Return: factorial
 */
 
-int _sqrt_recursion(n)
+int _sqrt_recursion(int n)
 {
 	return (squareRoot(n, 1));
 }
@@ -18,11 +18,11 @@ int _sqrt_recursion(n)
  *Return: root
 */
 
-int squareRoot(n, v)
+int squareRoot(int n, int v)
 {
-	if (v *v == n)
+	if (v * v == n)
 		return (v);
-	else if (v *v < n)
+	else if (v * v < n)
 		return (squareRoot(n, v + 1));
 	else
 		return (-1);
