@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *is_prime_number - returns the natural square root of a number.
+ *is_palindrome - returns the natural square root of a number.
  *@s: input function
  *@start: input function
  *@end: input function
