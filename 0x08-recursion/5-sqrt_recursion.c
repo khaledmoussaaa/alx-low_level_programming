@@ -3,9 +3,10 @@
 /**
  *_sqrt_recursion - returns the natural square root of a number.
  *@n: input function
+ *@v: input function
  *Return: factorial
 */
-
+int squareRoot(int n, int v);
 int _sqrt_recursion(int n)
 {
 	return (squareRoot(n, 1));
