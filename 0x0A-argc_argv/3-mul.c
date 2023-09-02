@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - print the program name
  * @argc: int
@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int r, n1, n2;
 
-	if (argc > 3 || argc < 3)
+	if (argc >= 3)
 	{
 		printf("Error\n");
 		return (1);
