@@ -25,7 +25,7 @@ int getSize(char *s)
  */
 char *argstostr(int ac, char **av)
 {
-	int i, j, size, word;
+	int i, j, size = 0, word = 0;
 	char *locSize;
 
 	if (ac == 0 || av == NULL)
