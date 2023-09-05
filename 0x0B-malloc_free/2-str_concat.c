@@ -26,10 +26,9 @@ int getSize(char *s)
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, size, size1 = getSize(s1), size2 = getSize(s2);
+	int i, size, size1 = 0, size2 = 0;
 	char *s;
 
-	size = size1 + size2;
 	if (s1 == NULL)
 	{
 		s1 = "\0";
@@ -38,8 +37,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "\0";
 	}
+	size1 = getSize(s1), size2 = getSize(s2);
 	s = malloc((size1 + size2) * sizeof(char) + 1);
-
+	size = size1 + size2;
 	if (s == 0)
 	{
 		return (0);
