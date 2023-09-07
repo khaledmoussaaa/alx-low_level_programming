@@ -6,21 +6,20 @@
 /**
 *_calloc - memory for an array, using malloc.
 *@nmemb: input function
-*@size: input function
+*@size: input functioin
 *Return: pointer
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *mall;
-	int sizeOf;
 
 	if (size == 0 || nmemb == 0)
 		return (NULL);
-	mall = malloc(nmemb * sizeof(int));
+	mall = malloc(sizeof(int) * nmemb);
 	if (mall == 0)
 		return (NULL);
-	sizeOf = sizeof(int) * nmemb;
-	memset(mall, 0, sizeOf);
+
+	memset(mall, 0, sizeof(int) * nmemb);
 
 	return (mall);
 }
