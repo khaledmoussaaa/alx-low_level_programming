@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
-*array_range - fcreallocates a memory block
+*_realloc - relolocates a memory block
 *@ptr: input function
 *@old_size: input function
 *@new_size: input function
@@ -24,7 +24,10 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 	if (ptr == NULL)
 	{
-		return(malloc(new_size));
+		newPtr = malloc(new_size);
+		if (newPtr == NULL)
+			return (NULL);
+		return (newPtr);
 	}
 	if (new_size > old_size)
 	{
