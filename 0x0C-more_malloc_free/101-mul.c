@@ -1,8 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-
 /**
 *multiply - multiply two numbers
 *@num1: input function
@@ -20,11 +17,13 @@ int multiply(int num1, int num2)
 */
 int isNumber(char *str)
 {
-	while (*str)
+	int i = 0;
+
+	while (str[i])
 	{
-		if (!isdigit(*str))
+		if (str[i] < '0' || str[i] > '9')
 			return (0);
-		str++;
+		i++;
 	}
 	return (1);
 }
