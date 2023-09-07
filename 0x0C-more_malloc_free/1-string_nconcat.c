@@ -22,7 +22,7 @@ int getSize(char *s)
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0, j = 0, size1 = 0, size2 = 0;
+	unsigned int i = 0, j = 0, size1 = 0, size2 = 0;
 	char *conc;
 
 	if (s1 == NULL)
@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	conc = malloc(size1 + n + 1);
 	if (conc == NULL)
 		return (NULL);
-	for (i = 0; i < s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		conc[i] = s1[i];
 	for (j = 0; j < n; j++, i++)
 		conc[i] = s2[j];
