@@ -3,6 +3,7 @@
 /**
  * print_dog - prototype
  * @d: input function
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
