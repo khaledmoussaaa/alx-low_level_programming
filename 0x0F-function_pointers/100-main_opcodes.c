@@ -6,6 +6,7 @@
  * main - entry point
  * @argc: no. of argc
  * @argv: argument vector.
+ * Return: 0
  */
 int main(int argc, char **argv)
 {
