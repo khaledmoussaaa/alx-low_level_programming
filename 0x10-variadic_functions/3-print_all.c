@@ -35,8 +35,7 @@ void formatString(char *separator, va_list list)
 {
 	char *str = va_arg(list, char *);
 
-	switch ((int)(!str))
-	case 1:
+	if (!str)
 		str = "(nil)";
 	printf("%s%s", separator, str);
 }
@@ -68,6 +67,7 @@ void print_all(const char * const format, ...)
 			{
 				tokens[j].f(separator, list);
 				separator = ", ";
+				break;
 			}
 			j++;
 		}
