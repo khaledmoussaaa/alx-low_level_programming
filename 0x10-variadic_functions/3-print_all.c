@@ -15,7 +15,7 @@ void formatChar(char *separator, va_list list)
  */
 void formatInteger(char *separator, va_list list)
 {
-	printf("%s%i", separator, va_arg(list, int));
+	printf("%s%d", separator, va_arg(list, int));
 }
 /**
  * formatFloat - format check
