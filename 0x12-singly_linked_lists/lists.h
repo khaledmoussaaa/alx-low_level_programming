@@ -7,11 +7,10 @@
 
 /**
  * struct list_s - signly linked list
- * @str: string - pointer
- * @len: store length os str
- * @next: points to the next node
- * Description: signaly linked list node structure
- * for holberton project
+ * @str: pointer
+ * @len: length of string
+ * @next: points
+ * Description: signaly linked list node structure.
  */
 typedef struct list_s
 {
