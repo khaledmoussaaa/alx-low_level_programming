@@ -19,4 +19,4 @@ size_t print_list(const list_t *h)
 		i++;
 	}
 	return (i);
-}i
+}
