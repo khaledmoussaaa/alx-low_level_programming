@@ -1,8 +1,5 @@
+#include "main.h"
 #include <elf.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
 #define BUF_SIZE 18
 
