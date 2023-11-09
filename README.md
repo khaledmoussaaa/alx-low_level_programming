@@ -1,1 +1,1 @@
-Readme Pinter
+Readme
