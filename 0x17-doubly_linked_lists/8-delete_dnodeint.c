@@ -1,6 +1,9 @@
 #include "lists.h"
 #include <stdlib.h>
 
+
+unsigned int len_node(dlistint_t **node);
+
 /**
  * delete_dnodeint_at_index - delete node at give index
  * @head:list
